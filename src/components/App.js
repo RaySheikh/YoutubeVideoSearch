@@ -35,7 +35,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{marginTop:10}} className="ui container">
+      <div style={{marginTop:10, backgroundColor: "aliceblue"}} className="ui container" >
         <SearchBar
         onTermSubmit={this.onTermSubmit}
         />
