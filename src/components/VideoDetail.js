@@ -1,3 +1,4 @@
+import './VideoDetail.css'
 import React from 'react';
 
 const VideoDetail = ({video}) => {
@@ -8,10 +9,10 @@ const VideoDetail = ({video}) => {
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return(
     <div>
-      <div className="ui embed">
+      <div className="ui embed video">
         <iframe title="video player" src={videoSrc} />
       </div>
-      <div style={{backgroundColor: "#e8f3ff"}} className="ui segment">
+      <div style={{backgroundColor: "#e8f3ff"}} className="ui segment video">
         <h4 className="ui header">{video.snippet.title}</h4>
         <p>{video.snippet.description}</p>
       </div>

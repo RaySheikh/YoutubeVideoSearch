@@ -1,0 +1,6 @@
+.input-bar:hover{
+  transform: scale(1.02);
+}
+.input-bar {
+  transition: transform .3s;
+}

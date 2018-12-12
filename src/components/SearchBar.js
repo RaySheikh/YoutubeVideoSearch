@@ -1,3 +1,4 @@
+import './SearchBar.css';
 import React from 'react';
 
 class SearchBar extends React.Component{
@@ -13,7 +14,7 @@ class SearchBar extends React.Component{
 
   render() {
     return (
-      <div className="search-bar ui segment" style={{backgroundColor:"lightblue"}}>
+      <div className="search-bar ui segment input-bar" style={{backgroundColor:"lightblue"}}>
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field ui fluid icon input">
             <input 

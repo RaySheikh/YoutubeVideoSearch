@@ -1,0 +1,6 @@
+.video:hover{
+  transform: scale(1.02);
+}
+.video {
+  transition: transform .3s;
+}

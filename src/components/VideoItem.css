@@ -3,9 +3,10 @@
   align-items: center !important;
   cursor: pointer;
   background-color: #e8f3ff;
+  transition: transform .3s;
   
 }
-.video-item:hover img{
+.video-item:hover {
   transform: scale(1.05);
 }
 .video-item.item img {
